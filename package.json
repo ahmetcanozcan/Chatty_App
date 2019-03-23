@@ -1,0 +1,19 @@
+{
+    "name": "chatty",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "test": "nodemon app.js",
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "cookie": "^0.3.1",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.6.9",
+        "express": "~4.16.0",
+        "morgan": "~1.9.0",
+        "socket.io": "^2.2.0",
+        "uniqid": "^5.0.3",
+        "unique-names-generator": "^2.0.1"
+    }
+}
